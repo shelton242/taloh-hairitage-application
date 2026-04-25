@@ -1,5 +1,5 @@
 import hairSolutionImg from "@/assets/WhatsApp_Image_2026-04-02_at_10.11.42_PM.jpeg";
-import shampooImg from "@/assets/file_00000000032471fd87ac64c15b4be91e.png";
+import shampooImg from "@/assets/shampoo.jpg";
 import bundleImg from "@/assets/file_000000009d2c71f8bfffa2a94b1be3a6_ujyyfg.png";
 
 export interface Product {
