@@ -21,6 +21,15 @@ interface Tutorial {
 
 const tutorials: Tutorial[] = [
   {
+    id: "haircare-system-guide",
+    title: "Understanding Your Haircare System",
+    description:
+      "A complete overview of the Talohs Hairitage haircare system. Learn how each product works together for the best results.",
+    videoUrl: "https://res.cloudinary.com/dgqdutijd/video/upload/v1770568294/talohs-hairitage-system-guide_ldreag.mp4",
+    duration: "Video Guide",
+    category: "Getting Started",
+  },
+  {
     id: "hair-revitalization-guide",
     title: "Hair Revitalizing Solution Application Guide",
     description:
@@ -143,7 +152,9 @@ const TutorialsPage = () => {
                         controls
                         preload="metadata"
                         poster={
-                          tutorial.id === 'hair-revitalization-guide'
+                          tutorial.id === 'haircare-system-guide'
+                            ? 'https://res.cloudinary.com/dgqdutijd/image/upload/v1770571300/file_000000003d9071f597a787f492e73ac4_1_m9q3x6.png'
+                            : tutorial.id === 'hair-revitalization-guide'
                             ? 'https://res.cloudinary.com/dgqdutijd/image/upload/v1770677602/d614d98e-2e37-4233-9b9c-d90c28362ba5_sfosar.png'
                             : tutorial.id === 'shampoo-wash'
                             ? 'https://res.cloudinary.com/dgqdutijd/image/upload/v1770678723/ChatGPT_Image_Feb_9_2026_06_10_04_PM_dfgwhi.png'
