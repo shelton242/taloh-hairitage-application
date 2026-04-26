@@ -161,7 +161,7 @@ const TutorialsPage = () => {
                             : tutorial.id === 'beard-growth-guide'
                             ? 'https://res.cloudinary.com/dgqdutijd/image/upload/v1770678724/ChatGPT_Image_Feb_9_2026_06_10_33_PM_bv4dcm.png'
                             : tutorial.id === 'results-timeline'
-                            ? 'https://res.cloudinary.com/dgqdutijd/image/upload/v1770571300/file_000000003d9071f597a787f492e73ac4_1_m9q3x6.png'
+                            ? 'https://res.cloudinary.com/dgqdutijd/image/upload/v1770571278/file_00000000a39c71f59637f26032f280de_pb9gvi.png'
                             : undefined
                         }
                         onLoadedData={() => handleVideoLoad(tutorial.id)}
