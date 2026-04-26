@@ -14,18 +14,18 @@ interface BeforeAfterGalleryProps {
 const photos: BeforeAfterPair[] = [
   {
     id: 1,
-    before: "https://res.cloudinary.com/dgqdutijd/image/upload/v1777217828/3_waq3bz.png",
-    after: "https://res.cloudinary.com/dgqdutijd/image/upload/v1777217817/4_oriwyw.png",
+    before: "https://res.cloudinary.com/dgqdutijd/image/upload/v1775663294/WhatsApp_Image_2026-04-07_at_10.11.48_PM_1_hwx17s.jpg",
+    after: "https://res.cloudinary.com/dgqdutijd/image/upload/v1775618334/WhatsApp_Image_2026-04-07_at_11.17.58_PM_ynqrzg.jpg",
   },
   {
     id: 2,
-    before: "https://res.cloudinary.com/dgqdutijd/image/upload/v1777217824/1_rcitph.png",
-    after: "https://res.cloudinary.com/dgqdutijd/image/upload/v1777217829/2_z2mk6r.png",
+    before: "https://res.cloudinary.com/dgqdutijd/image/upload/v1775618114/WhatsApp_Image_2026-04-07_at_10.11.48_PM_aucp2o.jpg",
+    after: "https://res.cloudinary.com/dgqdutijd/image/upload/v1775618334/WhatsApp_Image_2026-04-07_at_11.15.43_PM_vmzl1w.jpg",
   },
   {
     id: 3,
-    before: "https://res.cloudinary.com/dgqdutijd/image/upload/v1777217830/7_xdpisn.png",
-    after: "https://res.cloudinary.com/dgqdutijd/image/upload/v1777217818/8_u2bejf.png",
+    before: "https://res.cloudinary.com/dgqdutijd/image/upload/v1775618112/WhatsApp_Image_2026-04-07_at_9.56.14_PM_eadtuc.jpg",
+    after: "https://res.cloudinary.com/dgqdutijd/image/upload/v1775618113/WhatsApp_Image_2026-04-07_at_10.11.48_PM_6_f9ooio.jpg",
   },
 ];
 
