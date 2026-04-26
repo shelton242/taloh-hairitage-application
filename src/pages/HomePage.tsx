@@ -405,7 +405,7 @@ const checkReminderStatus = async () => {
               <Lightbulb className="h-6 w-6 text-accent" />
             </div>
             <div>
-              <h3 className="font-semibold">How to Apply Solution</h3>
+              <h3 className="font-semibold">How Exactly Does This System Work</h3>
               <p className="text-sm text-muted-foreground">Learn more</p>
             </div>
           </CardContent>
